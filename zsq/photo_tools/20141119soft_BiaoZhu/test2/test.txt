@@ -1,0 +1,4 @@
+D:\Dufy\00视频特定内容认证与检索平台\ImageSequence\motor\frame00202.png
+D:\Dufy\00视频特定内容认证与检索平台\ImageSequence\motor\
+202
+D:\Dufy\00视频特定内容认证与检索平台\ImageSequence\motor\*.png
