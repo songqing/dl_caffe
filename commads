@@ -1,0 +1,15 @@
+ipython qtconsole --matplotlib inline -m example_plots
+
+由于mnist要求输入的图像是灰度图像，因此需要将RGB图转换为灰度图，并更改channel_swap：
+
+在文件的开头加入
+
+from skimage.color import rgb2gray
+
+     在将图片读入inputs后将RGB图转换为灰度图
+
+inputs = [rgb2gray(input) for input in inputs]
+
+更改channel_swap:
+
+channel_swap = [0]
